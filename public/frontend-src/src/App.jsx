@@ -16,7 +16,7 @@ function App() {
       </button>
       <Suspense fallback={<div>loading..</div>}>
         <h2>Preview</h2>
-        {Btn ? <Btn /> : "no button"}
+        {Btn ? <Btn /> : "no preview"}
       </Suspense>
     </>
   );

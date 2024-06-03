@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-app.use(express.static("public/dist"));
+app.use(express.static("public/frontend-dist"));
 
 app.get("/", (req, res) => {
   res.json({ status: "ok" });
